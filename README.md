@@ -1,6 +1,6 @@
 # mr-coffee 
 
-## HTML and CSS project for a French cafe
+## HTML and CSS project for a French café
 
 1. HTML elements in the project:
 - use of HTML tags for SEO
@@ -20,3 +20,15 @@
 - use of visibility and transition
 - use of media query
 
+Due to copyright limits on images, they were not uploaded to GitHub. Below are screenshots of pages with images:
+
+- main page:
+![Mr_COFFEE-index .png](..%2FMr_COFFEE-index%20.png)
+
+
+- about page:
+![Mr-COFFEE-about.png](..%2FMr-COFFEE-about.png)
+
+
+- contact page:
+![Mr_COFFEE-contact.png](..%2FMr_COFFEE-contact.png)
