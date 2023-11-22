@@ -23,12 +23,12 @@
 Due to copyright limits on images, they were not uploaded to GitHub. Below are screenshots of pages with images:
 
 - main page:
-  ![Mr_COFFEE-index ](https://github.com/adriannamydlarz/mr-coffee/assets/120736128/6115459f-926e-4303-943c-9ef12cf598a3)
+![Mr_COFFEE-index .png](..%2FMr_COFFEE-index%20.png)
 
 
 - about page:
-  ![Mr-COFFEE-about](https://github.com/adriannamydlarz/mr-coffee/assets/120736128/d3a4638e-23e9-40a1-8509-43f244291534)
+![Mr-COFFEE-about.png](..%2FMr-COFFEE-about.png)
 
 
 - contact page:
-  ![Mr_COFFEE-contact](https://github.com/adriannamydlarz/mr-coffee/assets/120736128/f5fbdbbe-2c00-4da4-8838-f716049660bd)
+![Mr_COFFEE-contact.png](..%2FMr_COFFEE-contact.png)
