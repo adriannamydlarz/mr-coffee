@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Nous contacter || Mr COFFEE</title>
+    <meta
+      name="description"
+      content="DÉCOUVREZ NOTRE CAFÉ PHILO. Chez Mr.Coffee, notre engagement commence dans le café."
+    />
+    <link rel="stylesheet" href="./applications.css" />
+  </head>
+  <body>
+    <!-- Start of header -->
+    <div class="header">
+      <img
+        class="headerLogo"
+        src="./assets/full_logo_white.png"
+        alt="logo de Mr Coffee café"
+      />
+      <div class="menu">
+        <a href="./index.html">Accueil</a>
+        <a href="./about.html">Qui sommes-nous?</a>
+        <a class="active" href="./contact.html">Nous contacter</a>
+      </div>
+    </div>
+    <!-- End of header -->
+    <!-- Start of content -->
+    <div class="content">
+      <img
+        class="contentLogo"
+        src="./assets/logo_mrcoffee.png"
+        alt="logo de Mr Coffee café"
+      />
+      <!-- Start of section 1 -->
+      <div class="section1Contact">
+        <h2>Dites nous tout !</h2>
+        <form class="contactForm">
+          <label for="Nom">Nom *</label>
+          <input class="formControl" type="text" id="Nom" />
+          <label for="Prénom">Prénom *</label>
+          <input class="formControl" type="text" id="Prénom" />
+          <label for="Téléphone">Téléphone *</label>
+          <input class="formControl" type="number" id="Téléphone" />
+          <label for="Mail">Adresse mail *</label>
+          <input class="formControl" type="email" id="Mail" />
+          <label for="Message">Message *</label>
+          <textarea
+            id="Message"
+            placeholder="Tapez votre message ici"
+            class="formControl2"
+          ></textarea>
+        </form>
+        <a href="#onClick">
+          <button class="buttonEnvoyer button" type="submit">ENVOYER</button>
+        </a>
+
+        <!-- Start of pop up -->
+        <div class="popUp" id="onClick">
+          <div class="headerPopUp">
+            <img src="./assets/logo_dark.png" alt="logo de Mr Coffee café" />
+            <div class="textPopUp">
+              <h1>MERCI</h1>
+              <h2>Votre message a bien été envoyé !</h2>
+            </div>
+            <div class="popUpSpacer">&nbsp;</div>
+          </div>
+          <p>
+            Nous essaierons d’y répondre au mieux dans les plus brefs délais. À
+            bientot chez Mr.Coffee
+          </p>
+          <a href="contact.html">
+            <div class="buttonFermer button">FERMER</div></a
+          >
+        </div>
+        <!-- End of pop up -->
+      </div>
+      <!-- End of section 1 -->
+      <!-- Start of section 2 -->
+      <div class="section2Contact">
+        <h2>On vous attend !</h2>
+        <p>
+          <span class="bold"> Mr.Coffee</span>
+          <br />
+          15 place Jules Guesde
+          <br />
+          75006 Paris <br /><br />
+          Tel : +33 9 46 25 78 45
+          <br />
+          Mail : contact@mr-coffee.com
+        </p>
+        <img
+          class="map marginRLAuto"
+          src="./assets/carte_contact.png"
+          alt="carte"
+        />
+      </div>
+      <!-- End of section 2 -->
+    </div>
+    <!-- End of content -->
+    <!-- Start of Footer -->
+    <div class="footer">
+      <img
+        class="footerLogo"
+        src="./assets/logo_blanc.png"
+        alt="logo de Mr Coffee café"
+      />
+      <div class="footerInfo">
+        <div class="footerInfoText">
+          <p>Suivez nous sur les réseaux sociaux !</p>
+        </div>
+        <div class="footerInfoIcons">
+          <a href="https://www.linkedin.com/feed/" target="_blank">
+            <img src="./assets/logo_linkedin.png" alt="logo du linkedIn"
+          /></a>
+          <a href="https://www.twitter.com" target="_blank">
+            <img src="./assets/logo_twitter.png" alt="logo du twitter"
+          /></a>
+          <a href="https://www.facebook.com" target="_blank">
+            <img src="./assets/logo_facebook.png" alt="logo du facebook"
+          /></a>
+        </div>
+      </div>
+      <div class="footerSpacer">&nbsp;</div>
+    </div>
+    <!-- End of footer -->
+  </body>
+</html>
